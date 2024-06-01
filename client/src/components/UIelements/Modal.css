@@ -1,0 +1,23 @@
+.modal{
+  position:fixed;
+  top:22vh;
+  left:50%;
+  width:30%;
+  background:white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.26);
+  border-radius: 8px;
+  z-index:1001;
+  color:blue;
+  font-size: 1.5rem;
+}
+Modal.Header{
+  padding:0.5rem;
+  color: blue;
+}
+Modal.Body{
+  padding:1rem 0.5rem;
+  color: blue;
+}
+Modal.Footer{
+  padding:1rem 0.5rem;
+}

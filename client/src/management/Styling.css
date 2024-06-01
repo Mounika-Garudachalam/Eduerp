@@ -1,0 +1,122 @@
+body{
+   overflow: hidden; 
+}
+/* chooseuser */
+.chooseuser{
+    background:linear-gradient(to bottom, #411d70, #19118b);
+    height:100vh;
+    padding:50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.choosecard{
+    height:200px;
+    width: 400px;
+    text-align: center;
+}
+.choosecard:hover{
+    background-color: #2c2c6c;
+    color:white;
+    cursor:pointer;
+}
+
+/* admin register */
+.adminregister{
+    background:linear-gradient(to bottom, #411d70, #19118b);
+    height:100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.registercard{
+    height:auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding:20px;
+    position: absolute;
+    text-align: center;
+}
+/* admin login */
+
+.adminlogin{
+    background:linear-gradient(to bottom, #411d70, #19118b);
+    height:100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.logincard{
+    height:auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding:60px;
+    position: absolute;
+    text-align: center;
+}
+
+/* navbarmenu */
+.navbarmenu{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 20px;
+    background-color: #19118b;
+    color: white;
+    font-size: 18px;
+}
+.navicon{
+    padding: 10px;
+    align-items: center;
+    font-size:1.8rem;
+    color: white;
+}
+.navicon:hover{
+    color:#88789c;
+}
+
+/* admindashboard */
+    
+.sidebar{
+    font-size: 18px;
+    background-color: blue;
+    color:#19118b;
+    height:100vh;
+    position: relative;
+}
+.sidebar .icon{
+    margin-right: 20px;
+}
+.admin{
+    display:flex;
+}
+.admin-content{
+    justify-content: center;
+    align-items: center;
+}
+.adminhome{
+    display: flex;
+    position: relative;
+}
+.adminhomecol{
+    display: flex;
+}
+.adminhomecard{
+    height:200px;
+    width: 300px;
+    text-align: center;
+    margin: 50px 50px;
+}
+.adminhomecard img{
+    height:80px;
+    width:80px;
+}
+
+/* adminprofile */
+.adminprofile{
+    padding:20% 40%;
+    height:200px;
+    width:300px;
+}
